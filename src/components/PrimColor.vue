@@ -7,6 +7,7 @@
             <div class="details">{{PrimColor.hexa}}</div>
             <div class="details">{{PrimColor.pantone}}</div>
             <div class="show" v-if="show"><i class="gg-chevron-down-o"></i><span class="text-show">Copié !</span></div>
+            <div class="show" v-if="!show"><i class="gg-copy"></i></div>
         </div>
     </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
   <main id="app">
+    <div class="header"><img src="https://www.pkf-arsilon.com/wp-content/uploads/2021/06/PKF-Arsilon_logo_CMJN.svg"></div>
     <section class="container">
     <h2>Couleurs Primaires</h2>
     <div class="primary">
@@ -100,9 +101,15 @@ export default {
 
 #app {
   height: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+.header {
+  width: 225px;
+  margin: 30px 70px 0px 50px;
 }
 .container {
-  margin: 0px auto;
+  margin: 0 auto;
   width: 55%;
   display: flex;
   justify-content: center;
@@ -114,7 +121,7 @@ export default {
 .color {
   width: 175px;
   margin: 1px 1px;
-  height: 25vh;
+  height: 24vh;
   cursor: pointer;
 }
 
@@ -153,18 +160,62 @@ h2 {
 
 .show {
   height: 30px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.4);
   text-transform: uppercase;
-  margin: 50px 0px;
+  margin: 70px 0px 0px 5px;
   width: 100%;
   flex: row;
+}
+
+.show:hover {
+  color: rgb(255, 255, 255, 0.8);
+
 }
 .text-show {
   position: relative;
   height: 30px;
   top: -5px;
-
 }
+.gg-copy {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 18px;
+    border: 2px solid;
+    margin-left: -5px;
+    margin-top: -4px
+  }
+  .gg-copy::after,
+  .gg-copy::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+  }
+  .gg-copy::before {
+    background:
+        linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat right top/5px 2px,
+        linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat left bottom/ 2px 5px;
+    box-shadow: inset -4px -4px 0 -2px;
+    bottom: -6px;
+    right: -6px;
+    width: 14px;
+    height: 18px
+  }
+  .gg-copy::after {
+    width: 6px;
+    height: 2px;
+    background: currentColor;
+    left: 2px;
+    top: 2px;
+    box-shadow: 0 4px 0,0 8px 0
+  }
 
 .gg-chevron-down-o {
     box-sizing: border-box;
