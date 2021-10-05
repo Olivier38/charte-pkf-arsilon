@@ -39,7 +39,7 @@ export default {
         {name: 'gris', cmjn: 'C20 - M14 - J12 - N40', rvb: 'R151 - V153 - B155', hexa: '#97999B', pantone: 'COOL GREY 7'},
       ],
       SecondColors: [
-        {name: 'light-blue', cmjn: 'C75 - M0 - J5 - N40', rvb: 'R0 - V142 - B32', hexa: '#00B5E2', pantone: 'Pantone 306'},
+        {name: 'light-blue', cmjn: 'C75 - M0 - J5 - N0', rvb: 'R0 - V181 - B226', hexa: '#00B5E2', pantone: 'Pantone 306'},
         {name: 'mid-blue', cmjn: 'C100 - M0 - J20 - N0', rvb: 'R0 - V142 - B170', hexa: '#008EAA', pantone: 'Pantone 3135'},
         {name: 'light-green', cmjn: 'C65 - M0 - J100 - N0', rvb: 'R120 - V190 - B32', hexa: '#78BE20', pantone: 'Pantone 368'},
         {name: 'dark-green', cmjn: 'C47 - M11 - J99 - N64', rvb: 'R89 - V98 - B29', hexa: '#59621D', pantone: 'Pantone 378'},
