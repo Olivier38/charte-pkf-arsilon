@@ -98,6 +98,15 @@ export default {
 .purple {
   background-color: #642667;
 }
+.yellow .details, .yellow .colorName, .lime .details, .lime .colorName {
+  color: #000000;
+}
+.yellow .show, .lime .show {
+  color: #00000079;
+}
+.yellow .show:hover, .lime .show:hover {
+  color: #000000;
+}
 
 #app {
   height: 100%;
